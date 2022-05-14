@@ -5,8 +5,9 @@ class Controls{
         this.right=false;
         this.reverse=false;
 
-        this.#addKeyboadrListeners();
+        this.#addKeyboardListeners();
     }
+    //Change cboolean value to true or false accordingly,
     #addKeyboardListeners(){
         document.onkeydown=(event)=>{
             switch(event.key){
